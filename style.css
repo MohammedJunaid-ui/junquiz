@@ -381,3 +381,112 @@ footer button.show{
     color: #fff;
     background: #007bff;
 }
+
+@media screen and (max-width: 750px) {
+    
+.info_box{
+    width: 350px;
+}
+
+.info_box .info-title{
+    height: 80px;
+   }
+
+   .info_box .buttons{
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz_box{
+    width: 350px;
+}
+
+
+.quiz_box header .title{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.quiz_box header .timer .time_left_txt{
+     font-size: 14px;
+    
+}
+
+.quiz_box header .timer .timer_sec{
+    font-size: 14px;
+    height: 30px;
+    width: 35px;
+}
+
+.quiz_box header .time_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 2px;
+   
+}
+
+section .que_text{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+section .option_list .option{
+    
+    font-size: 14px;
+}
+
+section .option_list .option .icon{
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    line-height: 17px;
+}
+
+footer{
+    height: 45px;
+  
+}
+
+footer button{
+    height: 25px;
+    padding: 0 12px;
+    font-size: 13px;
+    line-height: 12px;
+   
+}
+
+.result_box{
+    display: flex;
+    padding: 25px 30px;
+    width: 300px;
+}
+
+.result_box .icon{
+    font-size: 70px;
+}
+
+.result_box .complete_text{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.result_box .score_text span{
+    display: flex;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.result_box .buttons button{
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+}
