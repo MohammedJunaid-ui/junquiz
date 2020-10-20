@@ -7,16 +7,20 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
+/* body {
     background: #007bff;
-}
+} */
 
 ::selection {
     color: #fff;
     background: #007bff;
 }
 
-.start_btn,
+img {
+    position: relative;
+    left: 250px;
+}
+
 .info_box,
 .quiz_box,
 .result_box {
@@ -37,16 +41,21 @@ body {
 }
 
 .start_btn button {
+    position: absolute;
+    left: 600px;
+    bottom: 100px;
     font-size: 25px;
-    font-weight: 500;
-    color: #007bff;
+    font-weight: 600;
+    color: #ffffff;
     padding: 15px 30px;
     outline: none;
-    border: none;
+    border: #047436;
     border-radius: 5px;
-    background: #fff;
+    background: #49db51;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
+
 
 .info_box {
     width: 540px;
@@ -382,6 +391,24 @@ footer button.show {
 }
 
 @media screen and (max-width: 750px) {
+    
+    img {
+        position: absolute;
+        top: 0px;
+        left: -170px;
+    }
+    .start_btn button {
+        position: absolute;
+        left: 180px;
+        bottom: 70px;
+    }
+   
+   
+
+
+   
+
+
     .info_box {
         width: 350px;
     }
