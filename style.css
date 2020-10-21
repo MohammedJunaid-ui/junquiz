@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
+body{
     background: #007bff;
 }
 
@@ -16,6 +16,7 @@ body {
     background: #007bff;
 }
 
+.malayalam_btn ,
 .start_btn,
 .info_box,
 .quiz_box,
@@ -43,10 +44,26 @@ body {
 }
 
 .ente_logo {
-    margin-left: 250px;
+    margin-top: 90px;
+    margin-left: 450px;
 }
 
 .start_btn button {
+    font-size: 25px;
+    font-weight: 500;
+    color: #007bff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.malayalam_btn  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     font-size: 25px;
     font-weight: 500;
     color: #007bff;
@@ -392,9 +409,15 @@ footer button.show {
 }
 
 @media screen and (max-width: 750px) {
-.ente_logo{
-    margin-left: -170px;
-}
+
+    .ente_logo {
+        margin-left: 80px;
+        margin-top: 120px;
+        height: 300px;
+        width: 350px;
+        border-left-width: 120px;
+        margin-right: 61px;
+    }
 
     .info_box {
         width: 350px;
