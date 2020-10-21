@@ -412,11 +412,17 @@ footer button.show {
 
     .ente_logo {
         margin: 0;
-        margin-left: 50px;
         margin-top: 50px;
         height: 300px;
         width: 350px;
      }
+
+     .start_btn {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        margin: 0;
+    }
 
     .info_box {
         width: 350px;
