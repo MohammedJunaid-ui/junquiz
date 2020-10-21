@@ -411,13 +411,12 @@ footer button.show {
 @media screen and (max-width: 750px) {
 
     .ente_logo {
-        margin-left: 80px;
-        margin-top: 120px;
-        height: 300px;
-        width: 350px;
-        border-left-width: 120px;
-        margin-right: 61px;
-    }
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 200px;
+        width: 250px;
+     }
 
     .info_box {
         width: 350px;
