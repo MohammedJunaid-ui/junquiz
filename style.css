@@ -16,20 +16,6 @@ body{
     background: #007bff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .splash{
     position: fixed;
     top: 0;
@@ -46,17 +32,6 @@ body{
     animation-fill-mode: forwards;
 }
 
-.splash::after, .splash::before{
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    height: vh;
-    width: 30vw;
-    z-index: 99;
-    animation-name: open;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-}
 .splash::after{
     left: 30vw;
     animation-delay: 200ms;
@@ -73,36 +48,6 @@ body{
         transform: translate(100%, 0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .splash {
     position: fixed;
