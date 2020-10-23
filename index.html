@@ -8,8 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title>Awesome Quiz App | CodingNepal</title> -->
     <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+
     <!-- FontAweome CDN Link for Icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+        //if browser support service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('script.js');
+        };
+      </script>
+      
 </head>
 
 <body>
